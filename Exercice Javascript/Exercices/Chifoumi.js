@@ -23,7 +23,7 @@ function comparer(choix1, choix2) {
       }
     }
   }
-  // début de partie
+  // Début de partie
   alert('Bonjour bienvenue sur le jeux du chifoumi en ligne')
   const nomUtilisateur = prompt('Quel est ton prenom ?')
   const choixUtilisateur = prompt('Veuillez choisir votre signe ?').toLowerCase();
