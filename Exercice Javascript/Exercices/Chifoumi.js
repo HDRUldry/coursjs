@@ -58,9 +58,12 @@ function comparer(choix1, choix2) {
   var message;
   if (scoreOrdi === scoreJoueur) {
     message = 'Égalité !';
+    location.reload();
   } else if (scoreOrdi > scoreJoueur) {
     message = 'Perdu !';
+    location.reload();
   } else {
     message = 'Gagné !';
+    location.reload();
   }
   alert(message + ' Votre score: ' + scoreJoueur + ', ordi: ' + scoreOrdi);
